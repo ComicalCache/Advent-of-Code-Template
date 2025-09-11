@@ -1,5 +1,5 @@
-# Advent of Code runner
-Simple AoC runner. Use `-h` for brief or `--help` for more elaborate usage information.
+# Advent of Code Template
+Simple Advent of Code template. Use `-h` for brief or `--help` for more elaborate usage information.
 
 ## Add new day
 
