@@ -18,12 +18,12 @@ pub struct Args {
     pub file: Option<String>,
 }
 
-#[derive(Clone, ValueEnum)]
+#[derive(Clone, PartialEq, Eq, ValueEnum)]
 pub enum PartOpt {
     /// Part 1
-    Part1,
+    P1,
     /// Part 2
-    Part2,
+    P2,
     /// Both parts
     All,
 }
@@ -31,7 +31,7 @@ pub enum PartOpt {
 #[derive(Clone, Copy, ValueEnum)]
 pub enum DayOpt {
     /// Day 0 (example)
-    Day0 = 0,
+    D0 = 0,
 }
 
 impl Display for DayOpt {
